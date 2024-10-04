@@ -1,0 +1,48 @@
+# Entorno virtual
+env/
+venv/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Archivos de configuración de entorno local
+*.env
+.env.*
+
+# Configuraciones y bases de datos locales
+db.sqlite3
+*.sqlite3
+
+# Archivos creados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
+
+# Archivos estáticos y media subidos por el usuario
+staticfiles/
+media/
+
+# Configuración de IDEs y editores de texto
+.idea/
+.vscode/
+
+# Archivos de migraciones (opcional, si prefieres no versionar migraciones generadas)
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Archivos de dependencias
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de pytest/django
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+
+# Archivos de docker (si usas Docker en el proyecto)
+docker-compose*.yaml
+Dockerfile
